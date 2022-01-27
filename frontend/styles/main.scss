@@ -1,0 +1,18 @@
+.container-back {
+    background: linear-gradient(180deg, #3f5cff, #9A00A5);
+    height: 100vh;
+    width: 100vw;
+
+    .form-login {
+        height: 100vh;
+        padding-top: 25vh;
+        color: #fff;
+
+        .btn-submit {
+            background-color: yellow;
+            border: none;
+        }
+    }
+
+    
+}

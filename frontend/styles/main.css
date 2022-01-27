@@ -1,0 +1,18 @@
+.container-back {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f5cff), to(#9A00A5));
+  background: linear-gradient(180deg, #3f5cff, #9A00A5);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-back .form-login {
+  height: 100vh;
+  padding-top: 25vh;
+  color: #fff;
+}
+
+.container-back .form-login .btn-submit {
+  background-color: yellow;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */
