@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="frontend/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 <body>
@@ -13,18 +14,20 @@
         <div class="container">
             <div class="row justify-content-center form-login">
                 <form>
-                    <h2 class="text-center mb-4">Form Login</h2>
+                    <h2 class="mb-4 text-center">Welcome</h2>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-white">email</small>
+                        <input type="email" class="form-border" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-white">password</small>
+                        <input type="password" class="form-border" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <div class="form-group form-check">
+                    <!-- <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn-sm btn-submit btn-block">Submit</button>
+                    </div> -->
+                    <button type="submit" class="btn btn-md btn-submit btn-block">Login</button>
                 </form>
             </div>
         </div>
